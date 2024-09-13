@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/mohmmed-moon/todo-app.git
+   git clone https://github.com/mohammed-moon/todo-app.git
 
 Install Dependencies
 
@@ -84,7 +84,7 @@ Contact
 
 For any questions or feedback, please reach out to:
 
-    Email: mohmmedmef693@gmail.com
+    Email: mohammedmef693@gmail.com
     GitHub: mohammed-moon
 
 Happy coding!
