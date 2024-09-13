@@ -285,15 +285,15 @@ class _MyAppState extends State<MyApp> {
                                   }
                                 },
                                 trailing: IconButton(
-                                  onPressed: () {
-                                    deletPost(todos[index].id!).then((todo) {
-                                      todos.remove(todos[index]);
+                                    onPressed: () {
+                                      deletPost(todos[index].id!).then((todo) {
+                                        todos.remove(todos[index]);
 
-                                      setState(() {});
-                                    });
-                                  },
-                                  icon: const Icon(Icons.delete_forever),
-                                ));
+                                        setState(() {});
+                                      });
+                                    },
+                                    icon: const Icon(Icons.delete_forever),
+                                    color: Colors.red));
                           },
                         );
                       } else if (snapshot.hasError) {
